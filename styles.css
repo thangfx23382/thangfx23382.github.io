@@ -392,7 +392,13 @@ li a {
   width: 100%;
 } */
 /* Tạo điều hướng navigation và style */
-
+.navbar {
+  position: relative;
+}
+.nav-img {
+  position: absolute;
+  left: 45%;
+}
 .navbar li {
   list-style-type: none;
   text-align: center;
