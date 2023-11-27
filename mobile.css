@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+  /* style căn chỉnh thanh navbar */
+  .navbar {
+    display: block;
+  }
+  .navigation img {
+    display: none;
+  }
+  .Name {
+    display: hidden;
+  }
+
+  .navbar li {
+    text-align: start;
+    margin-bottom: 10px;
+    margin-left: 30%;
+  }
+  .hidden {
+    display: none;
+  }
+  /* Căn chỉnh block mục tiêu nghề nghiệp và thông tin cá nhân  */
+  .Grid1 {
+    margin: 0;
+  }
+  #info {
+    margin-bottom: 50px;
+  }
+}
+/* Thiết lập border cho chứng chỉ */
+.section .image2 {
+  padding-left: 0;
+  border-left: none;
+}
+.Grid4 {
+  border-bottom: 1px solid #d6c08d;
+}
+.Chung-chi1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6c08d;
+}
+.Chung-chi2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6c08d;
+}
+.Chung-chi3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d6c08d;
+}
+/* Thiết lập project */
+.project-CV,
+.project-Web,
+.project-Web2 {
+  margin-bottom: 20px;
+}
+/* Thiết lập contact */
+.contact-lienhe {
+  gap: 30px;
+}
+
+.new-contact {
+  position: absolute;
+  left: 30%;
+}
+.form-thongtin {
+  margin-bottom: 40px;
+}
+#project {
+  overflow: auto;
+}
+.new-contact {
+  position: absolute;
+  left: 10%;
+}

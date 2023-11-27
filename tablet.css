@@ -1,0 +1,50 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-md {
+    padding: 0;
+  }
+  .cv-document {
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: arial, sans-serif, tahoma;
+    font-size: 10pt;
+  }
+  /* Ẩn thông tin chính giữa và ảnh avatar */
+  .navigation img {
+    display: none;
+  }
+  .Name {
+    display: none;
+  }
+  /* Giữ nguyên thanh navbar */
+  .navbar li {
+    margin: 0;
+    align-self: start;
+
+    
+  }
+  /* Thông tin cá nhân */
+  .Grid1 {
+    margin-right: 0;
+    padding: 0;
+    gap: 0;
+  }
+  .ic-toolbox {
+    font-size: 20px;
+    padding:0;
+  }
+ 
+  /* Căn chỉnh block mục tiêu nghề nghiệp & thông tin cá nhân */
+  
+  
+
+
+
